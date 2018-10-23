@@ -7,8 +7,8 @@ function distanceFromHqInBlocks(distance) {
   else if (distance > 42) {
     fromHQ = distance - 42;
     return fromHQ;
-  }
-}
+  };
+};
 
 function distanceFromHqinFeet(distance) {
 
