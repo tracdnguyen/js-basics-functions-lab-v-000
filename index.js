@@ -17,6 +17,6 @@ function distanceFromHqinFeet(distance) {
   }
   else if (distance > 42) {
     fromHQ = distance - 42;
-    return fromHQ;
+    return fromHQ * 264;
   }
 }
