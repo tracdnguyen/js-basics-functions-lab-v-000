@@ -10,5 +10,6 @@ function distanceFromHqInBlocks(distance) {
   };
 };
 
-
-
+function distanceFromHqInFeet() {
+  
+}
