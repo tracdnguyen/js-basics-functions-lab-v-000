@@ -17,11 +17,11 @@ function distanceFromHqInFeet(distance) {
 
 function distanceTravelledInFeet(someValue1, someValue2) {
   if (someValue1 > someValue2) {
-    someValue3 = someValue1 - someValue2
-    return someValue3 * 264
+    someValue3 = someValue1 - someValue2;
+    return someValue3 * 264;
   }
   else if (someValue1 < someValue2) {
-    someValue3 = someValue2 - someValue1
-    return someValue3 * 264
+    someValue3 = someValue2 - someValue1;
+    return someValue3 * 264;
   }
 }
